@@ -33,7 +33,7 @@ public class TestDatosPropiedad {
         System.out.println("JSON generado: " + jsonObject.toString());
 
         // Verificar que los datos en el JSON coinciden con los de la propiedad
-        assertEquals("Casa de Playas", jsonObject.optString("nombrePropiedad"));
+        assertEquals("Casa de Playa", jsonObject.optString("nombrePropiedad"));
         assertEquals("1200", jsonObject.optString("precio"));
         assertEquals("Guanacaste", jsonObject.optString("ubicacion"));
         assertEquals("Piscina, WiFi, Aire Acondicionado", jsonObject.optString("amenidadesCasa"));
